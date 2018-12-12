@@ -1,2 +1,0 @@
-# AFHtools
-sop finder

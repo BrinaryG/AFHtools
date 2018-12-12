@@ -1,0 +1,30 @@
+Brierley Weekly Report 2018-07-23 to 2018-08-01
+TOTAL: 81
+SOP: 48
+BLIP: 23
+Not Escalated: 6
+Escalated: 4
+INC0028599,2018-07-24 09:28:25,2018-07-24 13:56:49,Jeff.Weiner@4thsource.com,Not Escalated,Undocumented Issue,419623 - Printer
+INC0028602,2018-07-24 13:56:58,2018-07-24 14:09:42,austin.Jarrell@4thsource.com,Not Escalated,Undocumented Issue,419631 - Monitors are not working after yesterday's power outage
+INC0028627,2018-07-26 09:03:28,2018-07-26 14:04:54,michelle.maraj@4thsource.com,Not Escalated,Undocumented Issue,419750 - Screen, printers and dump crashes
+INC0028628,2018-07-26 09:04:46,2018-07-26 14:04:04,michelle.maraj@4thsource.com,Not Escalated,Undocumented Issue,419623 - Printer 
+INC0028629,2018-07-26 09:05:52,2018-07-26 14:03:42,michelle.maraj@4thsource.com,Not Escalated,Undocumented Issue,419749 - Hertz Upgrade Code Push to new servers
+INC0028630,2018-07-26 10:58:51,2018-07-26 14:03:04,Mac.Vandelagemaat@4thsource.com,BLIP,Undocumented Issue,419747 - User having issue accessing link provided 
+INC0028695,2018-07-29 04:29:48,2018-07-30 12:52:31,Jorge.Garibello@4thsource.com,SOP,Undocumented Issue,419866 -  "awsrds-awstyopora02-High-CPU-Utilization" in Asia Pacific (Tokyo)
+
+INC0028589,2018-07-24 02:22:50,2018-07-24 02:23:41,Umberto.Perrotta@4thsource.com,BLIP,Active Thread,419615 - CYPWBS17 - Gamestop
+INC0028590,2018-07-24 02:26:00,2018-07-24 02:26:56,Umberto.Perrotta@4thsource.com,BLIP,Active Thread,419616 - CYPWBS16 - Gamestop
+INC0028591,2018-07-24 02:29:05,2018-07-24 02:29:51,Umberto.Perrotta@4thsource.com,BLIP,Active Thread,419617 - CYPWBS19 - Gamestop
+INC0028592,2018-07-24 02:32:42,2018-07-24 02:33:29,Umberto.Perrotta@4thsource.com,BLIP,Active Thread,419618 - CYPWBS18 - Gamestop
+INC0028605,2018-07-24 22:50:31,2018-07-24 22:51:10,Umberto.Perrotta@4thsource.com,BLIP,Active Thread,419682 - CYPWBS16 - Gamestop
+INC0028646,2018-07-27 01:10:35,2018-07-27 01:11:26,Umberto.Perrotta@4thsource.com,BLIP,Active Thread,419816 - CYPWBS18 - Gamestop
+INC0028647,2018-07-27 01:13:25,2018-07-27 01:14:04,Umberto.Perrotta@4thsource.com,BLIP,Active Thread,419817 - CYPWBS17 - Gamestop
+INC0028650,2018-07-27 12:36:02,2018-07-27 12:36:41,Mac.Vandelagemaat@4thsource.com,SOP,Active Thread,419821 - CYPWBS221 - Hertz
+INC0028651,2018-07-27 13:29:32,2018-07-27 13:30:14,Ron.Bedlack@4thsource.com,BLIP,Active Thread,419824 - CYPWBS222 - Hertz
+INC0028670,2018-07-27 22:33:10,2018-07-27 22:38:16,Bryon.Patrick@4thsource.com,BLIP,Active Thread,419852 - CYPWBS221 - Hertz
+INC0028673,2018-07-27 22:39:34,2018-07-27 22:51:04,Bryon.Patrick@4thsource.com,BLIP,Active Thread,419853 - CYPWBS222 - Hertz
+INC0028679,2018-07-28 21:33:12,2018-07-28 21:42:02,Mac.Vandelagemaat@4thsource.com,SOP,Active Thread,419871 - CYPWBS90 - Express
+INC0028685,2018-07-29 00:46:12,2018-07-29 00:46:49,michelle.maraj@4thsource.com,BLIP,Active Thread,419874 - CYPWBS16 - Gamestop
+INC0028686,2018-07-29 00:46:55,2018-07-29 00:47:33,michelle.maraj@4thsource.com,SOP,Active Thread,419875 - CYPWBS17 - Gamestop
+INC0028687,2018-07-29 00:47:37,2018-07-29 00:51:40,michelle.maraj@4thsource.com,SOP,Active Thread,419876 - CYPWBS18  - Gamestop
+INC0028688,2018-07-29 00:48:42,2018-07-29 00:49:21,michelle.maraj@4thsource.com,SOP,Active Thread,419877 - CYPWBS19 - Gamestop
