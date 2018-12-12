@@ -19,26 +19,24 @@ namespace AFH_Tools
     public partial class Form3 : Form
     {
         //store production docx files non production
-        string binaryPath =
-     System.IO.Path.GetDirectoryName(
-         System.Reflection.Assembly.GetEntryAssembly().Location);
-
+        
         //string milli_sop = executableLocation+"\\Milli/";
         //string hp_sop = Environment.CurrentDirectory + "\\Helpdesk/";
         //string brierley = Environment.CurrentDirectory + "\\bp_sop/";
+        
 
-        string milli_sop = @"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\Milli\";
-        string hp_sop = @"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\Helpdesk\";
-        string brierley = @"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\bp_sop\";
+        string milli_sop = @"Milli\";
+        string hp_sop = @"Helpdesk\";
+        string brierley = @"bp_sop\";
 
         //production links
         //string helpdesk = Environment.CurrentDirectory + "\\Helpdesk_pdf/";
         //string milli = Environment.CurrentDirectory + "\\Mill_pdf/";
         //string bp = Environment.CurrentDirectory + "\\bp_sop_pdf/";
 
-        string helpdesk = @"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\Helpdesk_pdf\";
-        string milli = @"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\Mill_pdf\";
-        string bp = @"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\bp_sop_pdf\";
+        string helpdesk = @"Helpdesk_pdf\";
+        string milli = @"Mill_pdf\";
+        string bp = @"bp_sop_pdf\";
 
         public Form3()
         {
@@ -48,17 +46,22 @@ namespace AFH_Tools
 
         private string directories(string dir)
         {
+
+            String Pad = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase);
+            String newpaded = Pad.Replace(@"file:\", "");
+            String newpad = Pad.Replace(@"bin\Debug", @"Resources\");
+
             if (checkBox1.Checked)
             {
-                dir = hp_sop;
+                dir = newpad + hp_sop;
             }
             else if (checkBox2.Checked)
             {
-                dir = milli_sop;
+                dir = newpad + milli_sop;
             }
             else if (checkBox3.Checked)
             {
-                dir = brierley;
+                dir = newpad + brierley;
             }
 
 
@@ -67,18 +70,21 @@ namespace AFH_Tools
         }
         private string newdirectories(string dir)
         {
-            
-                if (checkBox1.Checked)
+            String Pad = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase);
+            String newpaded = Pad.Replace(@"file:\", "");
+            String newpad = Pad.Replace(@"bin\Debug", @"Resources\");
+
+            if (checkBox1.Checked)
                 {
-                    dir = helpdesk;
+                    dir = newpad + helpdesk;
                 }
                 else if (checkBox2.Checked)
                 {
-                    dir = milli;
+                    dir = newpad + milli;
                 }
                 else if (checkBox3.Checked)
                 {
-                    dir = bp;
+                    dir = newpad + bp;
                 }
 
             return dir;

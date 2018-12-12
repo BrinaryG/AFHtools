@@ -22,8 +22,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>8</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -160,6 +159,112 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Content Include="Resources\bp_sop\SJ Milli – CareCompass - for merge.docx" />
+    <Content Include="Resources\bp_sop_pdf\SJ Milli – CareCompass - for merge.pdf" />
+    <None Include="Resources\Helpdesk\SJ HD -  Software Center.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Adding Disk Space to SJ.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - After Hours Mexico SME Request.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Benefits Access_Login.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Call Received Stating Circuit or Line Down.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Cannot open Citrix receiver.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Categorization Cheatsheet.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Cisco AnyConnect Installation_VPN Support.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Cisco AnyConnect Secure Mobility Client – Certificate Enrollment – Self Service.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Citrix Sessions.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Clear Print Queue.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - DataMart Creating a Ticket.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - ETL Monitoring and Support.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - HelpDesk Admin Portal.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Hopenet WiFi Network.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - HotSpot Unable to Connect.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - information-sciences-guide.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - MobileNet MobileIron.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - MyIDFAQ.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - MyIDInstructionalCard.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Outlook for Mac Displays Incorrect Time.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - Resetting Your AD Account Password.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - SN Training - Incident Creation.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - SN Training - Self-Service.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - TimeKeeper Application.docx" />
+    <None Include="Resources\Helpdesk\SJ HD - VMail Password Resets.docx" />
+    <None Include="Resources\Helpdesk\SJ HD -Ransomeware awareness.docx" />
+    <None Include="Resources\Helpdesk\SJ HD – Cisco AnyConnect Login Process.docx" />
+    <None Include="Resources\Helpdesk\SJ HD – Proxy Pro Application.docx" />
+    <None Include="Resources\Helpdesk\SJ HD – WebEx Troubleshooting.docx" />
+    <None Include="Resources\Helpdesk\SJ HD – Xbox_Playstation Setup.docx" />
+    <Content Include="Resources\Helpdesk\SJ HD- After Hours Help Hesk.docx" />
+    <None Include="Resources\Helpdesk\SJ HD- Employees Forget PIN Number for Building Access.docx" />
+    <None Include="Resources\Helpdesk\SJ HD- ServiceNow Ticket Creation Procedure_HelpDesk.docx" />
+    <None Include="Resources\Helpdesk\SJ HD– myID User Portal.docx" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD -  Software Center.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Adding Disk Space to SJ.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - After Hours Mexico SME Request.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Benefits Access_Login.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Call Received Stating Circuit or Line Down.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Cannot open Citrix receiver.pdf" />
+    <EmbeddedResource Include="Resources\Helpdesk_pdf\SJ HD - Categorization Cheatsheet.pdf" />
+    <Content Include="Resources\Helpdesk_pdf\SJ HD - Cisco AnyConnect Installation_VPN Support.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Cisco AnyConnect Secure Mobility Client – Certificate Enrollment – Self Service.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Citrix Sessions.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Clear Print Queue.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - DataMart Creating a Ticket.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Employees Forget PIN Number for Building Access.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - ETL Monitoring and Support.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - HelpDesk Admin Portal.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Hopenet WiFi Network.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - HotSpot Unable to Connect.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - information-sciences-guide.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - MobileNet MobileIron.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - MyIDFAQ.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - MyIDInstructionalCard.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Outlook for Mac Displays Incorrect Time.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - Resetting Your AD Account Password.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - SN Training - Incident Creation.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - SN Training - Self-Service.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - TimeKeeper Application.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD - VMail Password Resets.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD -Ransomeware awareness.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD – Cisco AnyConnect Login Process.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD – Proxy Pro Application.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD – WebEx Troubleshooting.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD – Xbox_Playstation Setup.pdf" />
+    <EmbeddedResource Include="Resources\Helpdesk_pdf\SJ HD- After Hours Help Hesk.pdf" />
+    <Content Include="Resources\Helpdesk_pdf\SJ HD- ServiceNow Ticket Creation Procedure_HelpDesk.pdf" />
+    <None Include="Resources\Helpdesk_pdf\SJ HD– myID User Portal.pdf" />
+    <None Include="Resources\Milli\SJ Milli -  Open Incident Report.docx" />
+    <None Include="Resources\Milli\SJ Milli - AdjustFontSizeInMILLI.docx" />
+    <None Include="Resources\Milli\SJ Milli - Call Answering Questionnaire.docx" />
+    <None Include="Resources\Milli\SJ Milli - Cerner Powerchart Patient saftey issue - limit one chart.docx" />
+    <None Include="Resources\Milli\SJ Milli - iAccess Communication Flyer.docx" />
+    <None Include="Resources\Milli\SJ Milli - iaccess informational sheet.docx" />
+    <None Include="Resources\Milli\SJ Milli - iAccess Use-Enrollment Instructions.docx" />
+    <None Include="Resources\Milli\SJ Milli - Intelliviewer.docx" />
+    <None Include="Resources\Milli\SJ Milli - OnCallCoordinatorGuide.docx" />
+    <None Include="Resources\Milli\SJ Milli - Scanner Troubleshooting Tips.docx" />
+    <None Include="Resources\Milli\SJ Milli - Support and Escalation SOP.docx" />
+    <None Include="Resources\Milli\SJ Milli – DNA Fusion.docx" />
+    <None Include="Resources\Milli\SJ Milli – Request for RIN Access.docx" />
+    <None Include="Resources\Milli\SJ Milli – Warm Conferencing Milli calls.docx" />
+    <Content Include="Resources\Milli\SJ Milli- ServiceNow Ticket Creation Procedure_Milli.docx" />
+    <None Include="Resources\Milli\SJ Milli- St Jude VIP List.docx" />
+    <None Include="Resources\Milli\SJ Milli- Staff Scheduling Website – External Link.docx" />
+    <Content Include="Resources\Mill_pdf\SJ MIilli - Cerner Powerchart Patient saftey issue - limit one chart.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli -  Open Incident Report.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli - AdjustFontSizeInMILLI.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli - Call Answering Questionnaire.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli - iAccess Communication Flyer.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli - iaccess informational sheet.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli - iAccess Use-Enrollment Instructions.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli - Intelliviewer.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli - OnCallCoordinatorGuide.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli - Scanner Troubleshooting Tips.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli - Support and Escalation SOP.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli – DNA Fusion.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli – Request for RIN Access.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli – Warm Conferencing Milli calls.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli- ServiceNow Ticket Creation Procedure_Milli.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli- St Jude VIP List.pdf" />
+    <None Include="Resources\Mill_pdf\SJ Milli- Staff Scheduling Website – External Link.pdf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -266,6 +371,10 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\notes\test.txt" />
+    <Content Include="Resources\notes\test2.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

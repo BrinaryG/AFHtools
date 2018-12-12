@@ -35,6 +35,10 @@
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.recapsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.brierleyRecapToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.docxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpdeskToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.milliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.brierleyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl_clients = new System.Windows.Forms.TabControl();
             this.fourth_source = new System.Windows.Forms.TabPage();
             this.linkLabel8 = new System.Windows.Forms.LinkLabel();
@@ -94,10 +98,6 @@
             this.axAcroPDF2 = new AxAcroPDFLib.AxAcroPDF();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.docxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpdeskToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.milliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.brierleyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabControl_clients.SuspendLayout();
             this.fourth_source.SuspendLayout();
@@ -164,7 +164,7 @@
             this.recapsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.brierleyRecapToolStripMenuItem});
             this.recapsToolStripMenuItem.Name = "recapsToolStripMenuItem";
-            this.recapsToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
+            this.recapsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.recapsToolStripMenuItem.Text = "Recaps";
             // 
             // brierleyRecapToolStripMenuItem
@@ -173,6 +173,37 @@
             this.brierleyRecapToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.brierleyRecapToolStripMenuItem.Text = "Brierley Recap";
             this.brierleyRecapToolStripMenuItem.Click += new System.EventHandler(this.brierleyRecapToolStripMenuItem_Click);
+            // 
+            // docxToolStripMenuItem
+            // 
+            this.docxToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpdeskToolStripMenuItem,
+            this.milliToolStripMenuItem,
+            this.brierleyToolStripMenuItem});
+            this.docxToolStripMenuItem.Name = "docxToolStripMenuItem";
+            this.docxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.docxToolStripMenuItem.Text = "docx";
+            // 
+            // helpdeskToolStripMenuItem
+            // 
+            this.helpdeskToolStripMenuItem.Name = "helpdeskToolStripMenuItem";
+            this.helpdeskToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.helpdeskToolStripMenuItem.Text = "helpdesk";
+            this.helpdeskToolStripMenuItem.Click += new System.EventHandler(this.helpdeskToolStripMenuItem_Click);
+            // 
+            // milliToolStripMenuItem
+            // 
+            this.milliToolStripMenuItem.Name = "milliToolStripMenuItem";
+            this.milliToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.milliToolStripMenuItem.Text = "Milli";
+            this.milliToolStripMenuItem.Click += new System.EventHandler(this.milliToolStripMenuItem_Click);
+            // 
+            // brierleyToolStripMenuItem
+            // 
+            this.brierleyToolStripMenuItem.Name = "brierleyToolStripMenuItem";
+            this.brierleyToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.brierleyToolStripMenuItem.Text = "Brierley";
+            this.brierleyToolStripMenuItem.Click += new System.EventHandler(this.brierleyToolStripMenuItem_Click);
             // 
             // tabControl_clients
             // 
@@ -628,7 +659,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.axAcroPDF1.Enabled = true;
-            this.axAcroPDF1.Location = new System.Drawing.Point(18, 9);
+            this.axAcroPDF1.Location = new System.Drawing.Point(18, 0);
             this.axAcroPDF1.Name = "axAcroPDF1";
             this.axAcroPDF1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF1.OcxState")));
             this.axAcroPDF1.Size = new System.Drawing.Size(613, 766);
@@ -842,37 +873,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // docxToolStripMenuItem
-            // 
-            this.docxToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.helpdeskToolStripMenuItem,
-            this.milliToolStripMenuItem,
-            this.brierleyToolStripMenuItem});
-            this.docxToolStripMenuItem.Name = "docxToolStripMenuItem";
-            this.docxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.docxToolStripMenuItem.Text = "docx";
-            // 
-            // helpdeskToolStripMenuItem
-            // 
-            this.helpdeskToolStripMenuItem.Name = "helpdeskToolStripMenuItem";
-            this.helpdeskToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.helpdeskToolStripMenuItem.Text = "helpdesk";
-            this.helpdeskToolStripMenuItem.Click += new System.EventHandler(this.helpdeskToolStripMenuItem_Click);
-            // 
-            // milliToolStripMenuItem
-            // 
-            this.milliToolStripMenuItem.Name = "milliToolStripMenuItem";
-            this.milliToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.milliToolStripMenuItem.Text = "Milli";
-            this.milliToolStripMenuItem.Click += new System.EventHandler(this.milliToolStripMenuItem_Click);
-            // 
-            // brierleyToolStripMenuItem
-            // 
-            this.brierleyToolStripMenuItem.Name = "brierleyToolStripMenuItem";
-            this.brierleyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.brierleyToolStripMenuItem.Text = "Brierley";
-            this.brierleyToolStripMenuItem.Click += new System.EventHandler(this.brierleyToolStripMenuItem_Click);
             // 
             // AFH
             // 

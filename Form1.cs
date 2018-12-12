@@ -40,13 +40,13 @@ namespace AFH_Tools
 
         string link = "";
         //production links
-        string milli = @"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\Mill_pdf\";
-        string helpdesk = @"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\Helpdesk_pdf\";
-        //string helpdesk = @"C:\Users\MichelleMaraj\Desktop\Helpdesk_pdf\";
-        string brierley = @"\\4thtest.sharepoint.com@SSL\Operations\Brierley\bp_sop\bp_sop_pdf\";
+        string milli = @"..\..\Resources\Mill_pdf\";
+        //string helpdesk = @"..\..\Resources\Helpdesk_pdf\";
+        string helpdesk = @"..\..\Resources\Helpdesk_pdf\";
+        string brierley = @"..\..\Resources\bp_sop_pdf\";
 
-        string notes_file = @"\\4thtest.sharepoint.com@SSL\Operations\St Jude\notes\";
-        string bp_notes_file = @"\\4thtest.sharepoint.com@SSL\Operations\Brierley\bp_notes\";
+        string notes_file = @"..\..\Resources\notes\";
+        string bp_notes_file = @"..\..\Resources\notes\";
         int counter = 0;
         
         string getfile ="";
@@ -143,7 +143,25 @@ namespace AFH_Tools
                 MessageBox.Show("error" + ex);
             }
         }
+        private string directories2(string dir)
+        {
+            if (checkBox1.Checked)
+            {
+                dir = @"Mill_pdf\";
+            }
+            else if (checkBox2.Checked)
+            {
+                dir = @"Helpdesk_pdf\";
+            }
 
+            else if (tabControl_clients.SelectedIndex == 2)
+            {
+                dir = @"bp_sop_pdf\";
+            }
+
+
+            return dir;
+        }
         private string directories(string dir)
         {
             if (checkBox1.Checked)
@@ -208,20 +226,25 @@ namespace AFH_Tools
                 String dir = "";
                 axAcroPDF1.Visible = true;
                 webBrowser1.Visible = false;
-                dir = directories(dir);
+                dir = directories2(dir);
 
                 string curItem = listBox1.SelectedItem.ToString();
+                String Pad = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase);
+                String newpaded = Pad.Replace(@"file:\", "");
+                String newpad = Pad.Replace(@"bin\Debug", "Resources");
                 //MessageBox.Show(curItem);
                 //now to open file
-                string new_file = dir + curItem;
-
+                string new_file = newpad+@"\"+ dir + curItem;
+                //MessageBox.Show(new_file);
                 if (curItem.ToString().ToLower().Contains(".pdf"))
                 {
-                    axAcroPDF1.src = new_file;
+                    axAcroPDF1.src=new_file;
                     //Html_file.Text = file;
                     //Uri uri = new Uri(new_file);
                     //webBrowser1.Navigate(uri);
-                   
+                    
+                    //MessageBox.Show(new_file);
+                    //AxAcroPDF1.src = Fln;
                 }
             }
             catch (Exception ex)
@@ -505,14 +528,17 @@ namespace AFH_Tools
             {
                 String dir = "";
                 axAcroPDF2.Visible = true;
-                //webBrowser2.Visible = false;
-                dir = directories(dir);
+                //webBrowser1.Visible = false;
+                dir = directories2(dir);
 
                 string curItem = listBox2.SelectedItem.ToString();
+                String Pad = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase);
+                String newpaded = Pad.Replace(@"file:\", "");
+                String newpad = Pad.Replace(@"bin\Debug", "Resources");
                 //MessageBox.Show(curItem);
                 //now to open file
-                string new_file = dir + curItem;
-
+                string new_file = newpad + @"\" + dir + curItem;
+                //MessageBox.Show(new_file);
                 if (curItem.ToString().ToLower().Contains(".pdf"))
                 {
                     axAcroPDF2.src = new_file;
@@ -520,6 +546,8 @@ namespace AFH_Tools
                     //Uri uri = new Uri(new_file);
                     //webBrowser1.Navigate(uri);
 
+                    //MessageBox.Show(new_file);
+                    //AxAcroPDF1.src = Fln;
                 }
             }
             catch (Exception ex)
@@ -582,17 +610,18 @@ namespace AFH_Tools
 
         private void helpdeskToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start(@"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\Helpdesk\");
+            //..\..\Files\Name.text
+            Process.Start(@"..\..\Resources\Helpdesk");
         }
 
         private void milliToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start(@"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\Milli\");
+            Process.Start(@"..\..\Resources\Milli");
         }
 
         private void brierleyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start(@"C:\Users\MichelleMaraj\source\repos\AFH_Tools\AFH_Tools\bin\bp_sop\");
+            Process.Start(@"..\..\Resources\bp_sop");
         }
     }
 }
